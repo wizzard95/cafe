@@ -10,7 +10,7 @@ const Tes = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 uppercase">
-            Tes
+            Tés
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">
