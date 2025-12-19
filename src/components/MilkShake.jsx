@@ -14,7 +14,12 @@ const MilkShake = () => {
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">
-          {/*   Fall favorites meet new arrivals with a protein boost */}
+         “El hombre es el único ser que consume sin producir. No da leche, no pone huevos, es demasiado débil para tirar del arado y su velocidad ni siquiera le permite atrapar conejos. Sin embargo, es dueño y señor de todos los animales.”
+         - George Orwell
+
+
+
+
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
