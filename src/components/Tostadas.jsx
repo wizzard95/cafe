@@ -1,5 +1,5 @@
 import React from "react";
-import { menuItems } from "../module";
+import { tostadas } from "../module";
 
 const Tostadas = () => {
   return (
@@ -18,7 +18,7 @@ const Tostadas = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {menuItems.map((item, index) => (
+          {tostadas.map((item, index) => (
             <div
               key={index}
               className="bg-white p-6 rounded-3xl shadow-lg transform hover:-translate-y-2.5 transition"
@@ -42,9 +42,9 @@ const Tostadas = () => {
                 </span>
               </div>
               <p className="text-gray-600 mb-6">{item.description}</p>
-              <button className="w-full bg-green-700 hover:bg-green-800 text-white py-3 rounded-full font-semibold transition cursor-pointer">
+              {/* <button className="w-full bg-green-700 hover:bg-green-800 text-white py-3 rounded-full font-semibold transition cursor-pointer">
                 Add to Order
-              </button>
+              </button> */}
             </div>
           ))}
         </div>
