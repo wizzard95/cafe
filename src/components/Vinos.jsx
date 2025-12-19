@@ -12,7 +12,7 @@ const Vinos = () => {
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">
-            Bring the Starbucks experience to your home
+            Prueba nuestra variedad de vinos franceses
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
