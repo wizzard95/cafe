@@ -11,11 +11,11 @@ const Reviews = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 uppercase">
-            Customer Reviews
+            Opiniones de los clientes
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div> 
           <p className="text-xl text-gray-600">
-            What our customers say about us
+            Lo que dicen nuestros clientes sobre nosotros
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

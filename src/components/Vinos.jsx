@@ -1,22 +1,22 @@
 import React from "react";
-import { products } from "../module";
+import { vinos } from "../module";
 import { Coffee } from "lucide-react";
 
-const Products = () => {
+const Vinos = () => {
   return (
-    <section id="products" className="py-20 bg-white px-5 md:px-28">
+    <section id="vinos" className="py-20 bg-white px-5 md:px-28">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 uppercase">
-           Café Francés en casa
+           Vinos
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">
-           Lleva la experiencia de Café Francés a tu hogar.
+            Bring the Starbucks experience to your home
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {products.map((product, index) => (
+          {vinos.map((product, index) => (
             <div
               key={index}
               className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-3xl hover:shadow-xl transition group"
@@ -34,7 +34,7 @@ const Products = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 {product.name}
               </h3>
-            {/*   <p className="text-gray-600 mb-4">{product.description}</p> */}
+              <p className="text-gray-600 mb-4">{product.description}</p>
               <div className="flex justify-between items-center">
                 <span className="text-2xl font-bold text-green-700">
                   {product.price}
@@ -51,4 +51,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Vinos;

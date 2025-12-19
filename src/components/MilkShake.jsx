@@ -1,16 +1,16 @@
 import React from "react";
-import { menuItems } from "../module";
+import { milkShake } from "../module";
 
-const Menu = () => {
+const MilkShake = () => {
   return (
     <section
-      id="menu"
+      id="milkShake"
       className="py-20 bg-gradient-to-br from-green-50 to-green-100 px-5 md:px-28"
     >
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 uppercase">
-            Our Menu
+            MilkShake
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">
@@ -18,7 +18,7 @@ const Menu = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {menuItems.map((item, index) => (
+          {milkShake.map((item, index) => (
             <div
               key={index}
               className="bg-white p-6 rounded-3xl shadow-lg transform hover:-translate-y-2.5 transition"
@@ -42,9 +42,9 @@ const Menu = () => {
                 </span>
               </div>
               <p className="text-gray-600 mb-6">{item.description}</p>
-              <button className="w-full bg-green-700 hover:bg-green-800 text-white py-3 rounded-full font-semibold transition cursor-pointer">
+              {/* <button className="w-full bg-green-700 hover:bg-green-800 text-white py-3 rounded-full font-semibold transition cursor-pointer">
                 Add to Order
-              </button>
+              </button> */}
             </div>
           ))}
         </div>
@@ -53,4 +53,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default MilkShake;

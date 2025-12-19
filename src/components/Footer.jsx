@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logofrances.png";
 
 const Footer = () => {
   return (
@@ -14,8 +14,8 @@ const Footer = () => {
             />
           </div>
           <p>
-            &copy; {new Date().getFullYear()} Starbucks Coffee Company. All
-            rights reserved.
+            &copy; {new Date().getFullYear()}
+           
           </p>
         </div>
       </div>
