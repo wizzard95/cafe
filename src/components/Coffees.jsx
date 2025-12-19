@@ -14,7 +14,7 @@ const Coffess = () => {
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">
-            "El café huele a cielo recién molido." (Jessi Lane Adams)
+            "El café huele a cielo recién molido." -Jessi Lane Adams.
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

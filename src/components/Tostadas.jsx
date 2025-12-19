@@ -14,7 +14,7 @@ const Tostadas = () => {
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">
-            Fall favorites meet new arrivals with a protein boost
+            “Recuerda, el hombre no vive sólo del pan: a veces necesita un poco de mantequilla.” ― John C. Maxwell
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

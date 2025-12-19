@@ -14,7 +14,12 @@ const JugosBebidas = () => {
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">
-            Fall favorites meet new arrivals with a protein boost
+          “Los reyes usan a los hombres como si fuesen naranjas, 
+          primero exprimen el jugo y luego tiran la cáscara.” - Fernando Álvarez de Toledo y Pimentel
+
+
+
+
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
