@@ -14,7 +14,8 @@ const Breakfast = () => {
           </h2>
           <div className="w-24 h-1 bg-green-700 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600">
-           “Deje que los alimentos sean su medicina y que la medicina sea su alimento”. (Hipócrates)
+           “La vida dentro de las puertas tiene pocas perspectivas más agradables que una mesa de desayuno bien organizada y bien provista.”
+― Nathaniel Hawthorne
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
