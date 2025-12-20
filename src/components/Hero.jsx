@@ -2,11 +2,13 @@ import React from "react";
 import HeroBg from "../assets/hero.png";
 import logoFrances from "../assets/logofrances.png";
 
+
+0, 0, 145
 const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen bg-gradient-to-br from-green-50 to-green-100 justify-center items-center flex px-5 md:px-28"
+      className="min-h-screen bg-gradient-to-br from-green-50 to-blue-600 justify-center items-center flex px-5 md:px-28"
     >
       <div className="container mx-auto w-full sm:pt-0 pt-32">
         <div className="flex md:flex-row flex-col items-center gap-20">
