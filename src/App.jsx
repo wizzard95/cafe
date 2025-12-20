@@ -48,6 +48,9 @@ const App = () => {
       {/* About Section */}
       <About />
 
+  {/* Reviews Section */}
+      <Reviews />
+
       {/* breakfast Section */}
       <Breakfast />
       
@@ -131,8 +134,7 @@ const App = () => {
        {/* Products Section */}
       <Vinos />
 
-      {/* Reviews Section */}
-      <Reviews />
+    
 
    {/* Blog Section */}
       {/* <Blogs />  */}

@@ -45,10 +45,11 @@ const Header = () => {
           </button>
 
  */}
-   <div>
-                  <a href="#home" className="text-gray-700 hover:text-green-700 transition">🏠</a>
+              <div>
+                  <a href="#home" className="text-gray-700 hover:text-green-700 mb-3 transition">🏠</a>
                   <a href="#about" className="text-gray-700 hover:text-green-700 transition">Nosotros</a>
-                 </div>
+                  <a href="#reviews" className="text-gray-700 hover:text-green-700 transition">Reviews</a>
+              </div>
 
           {/* Desktop Menu: horizontal scroll container */}
           <div className="hidden md:block flex-1 min-w-0">
@@ -98,7 +99,7 @@ const Header = () => {
                   <a href="#products" className="text-gray-700 hover:text-green-700 transition">Productos</a>
                    <a href="#vinos" className="text-gray-700 hover:text-green-700 transition">Vinos</a>
 
-                  <a href="#reviews" className="text-gray-700 hover:text-green-700 transition">Reviews</a>
+                  
                  {/*  <a href="#blog" className="text-gray-700 hover:text-green-700 transition">Blog</a> */}
                   {/* <a href="#contact" className="text-gray-700 hover:text-green-700 transition">Contact</a> */}
                 </div>
