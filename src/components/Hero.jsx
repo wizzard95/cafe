@@ -3,7 +3,7 @@ import Fondop from "../assets/fondop.png";
 import logoFrances from "../assets/logofrances.png";
 
 
-0, 0, 145
+
 const Hero = () => {
   return (
     <section

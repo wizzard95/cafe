@@ -38,7 +38,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="w-full bg-white container">
+    <div className="w-full bg-white">
       {/* Navigation */}
       <Header />
 
