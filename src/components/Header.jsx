@@ -72,21 +72,6 @@ const Header = () => {
             <img src={logo} alt="logo" className="w-12 md:w-14 cursor-pointer" />
           </div>
 
-
-
-{/* Mobile Menu Button */}
-      {/*     <button
-            className="md:hidden text-gray-700"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? (
-              <X className="w-6 h-6 cursor-pointer" />
-            ) : (
-              <Menu className="w-6 h-6 cursor-pointer" />
-            )}
-          </button>
-
- */}
               <div className="flex space-x-6">
                   <a href="#home" onClick={() => { closeAllDropdowns(); handleMobileLink(); }} className="text-gray-700 hover:text-green-700 mb-3 transition">🏠</a>
                   <a href="#about" onClick={() => { closeAllDropdowns(); handleMobileLink(); }} className="text-gray-700 hover:text-green-700 transition">Nosotros</a>
@@ -240,7 +225,7 @@ const Header = () => {
             <a href="#coffees" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Cafés</a>
             <a href="#coffeescm" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Cafés con malicia</a>
             <a href="#chocolates" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Chocolates</a>
-            <a href="#tes" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Tes</a>
+            <a href="#tes" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Té</a>
             <a href="#icf" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Ice Coffee Frapucino</a>
             <a href="#tortas" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Tortas</a>
             <a href="#crepesd" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Crepes Dulces</a>
