@@ -260,7 +260,7 @@ const Header = () => {
             <a href="#helados" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Helados</a>
             <a href="#milkShake" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Milk Shake</a>
             <a href="#paraCompartir" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Para Compartir</a>
-            <a href="#products" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Productos</a>
+            <a href="#products" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Reposteria</a>
             <a href="#vinos" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Vinos</a>
            {/*  <a href="#reviews" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Reviews</a> */}
           {/*   <a href="#blog" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Blog</a> */}
