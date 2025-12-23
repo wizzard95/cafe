@@ -216,7 +216,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden pb-4 uppercase mobile-menu">
+          <div className="md:hidden pb-4 uppercase mobile-menu flex flex-col items-center">
            {/*  <a href="#home" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Home🏠</a>
             <a href="#about" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Nosotros</a> */}
             <a href="#breakfast" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Desayunos</a>

@@ -17,7 +17,7 @@ const Almuerzos = () => {
            “Deje que los alimentos sean su medicina y que la medicina sea su alimento”. (Hipócrates)
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           {almuerzos.map((item, index) => (
             <div
               key={index}
