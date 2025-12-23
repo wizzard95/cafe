@@ -88,9 +88,9 @@ const Header = () => {
 
  */}
               <div className="flex space-x-6">
-                  <a href="#home" onClick={closeAllDropdowns} className="text-gray-700 hover:text-green-700 mb-3 transition">🏠</a>
-                  <a href="#about" onClick={closeAllDropdowns} className="text-gray-700 hover:text-green-700 transition">Nosotros</a>
-                  <a href="#reviews" onClick={closeAllDropdowns} className="text-gray-700 hover:text-green-700 transition">Reviews</a>
+                  <a href="#home" onClick={() => { closeAllDropdowns(); handleMobileLink(); }} className="text-gray-700 hover:text-green-700 mb-3 transition">🏠</a>
+                  <a href="#about" onClick={() => { closeAllDropdowns(); handleMobileLink(); }} className="text-gray-700 hover:text-green-700 transition">Nosotros</a>
+                  <a href="#reviews" onClick={() => { closeAllDropdowns(); handleMobileLink(); }} className="text-gray-700 hover:text-green-700 transition">Reseñas</a>
               </div>
 
           {/* Desktop Menu: Dropdowns */}
@@ -232,8 +232,8 @@ const Header = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden pb-4 uppercase mobile-menu">
-            <a href="#home" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Home🏠</a>
-            <a href="#about" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Nosotros</a>
+           {/*  <a href="#home" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Home🏠</a>
+            <a href="#about" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Nosotros</a> */}
             <a href="#breakfast" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Desayunos</a>
             <a href="#almuerzos" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Almuerzos</a>
             <a href="#menupastry" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Pastelería</a>
@@ -262,7 +262,7 @@ const Header = () => {
             <a href="#paraCompartir" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Para Compartir</a>
             <a href="#products" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Productos</a>
             <a href="#vinos" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Vinos</a>
-            <a href="#reviews" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Reviews</a>
+           {/*  <a href="#reviews" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Reviews</a> */}
           {/*   <a href="#blog" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Blog</a> */}
             {/* <a href="#contact" onClick={handleMobileLink} className="block py-2 text-gray-700 hover:text-green-700">Contact</a> */}
           </div>

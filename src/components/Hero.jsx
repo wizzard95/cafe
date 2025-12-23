@@ -11,9 +11,9 @@ const Hero = () => {
       className="min-h-screen bg-gradient-to-br from-green-50 to-blue-600 justify-center items-center flex px-5 md:px-28"
     >
       
-      <div className="container mx-auto w-full sm:pt-0 pt-32">
+      <div className="container mx-auto w-full sm:pt-1 pt-16">
         <div className="flex md:flex-row flex-col items-center gap-20">
-          <div className="md:w-1/2 w-full">
+          <div className="md:w-1/2 w-full md:order-1 order-2">
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 mb-6 uppercase">
               No es solo café,
               <span className="text-green-700"> Es Café Frances.</span>
@@ -32,7 +32,7 @@ const Hero = () => {
               </button>
             </div> */}
           </div>
-          <div className="relative">
+          <div className="relative md:order-2 order-1">
             <img src={Fondop} alt="Coffee" className="md:w-[500px] w-full" />
           </div>
         </div>
